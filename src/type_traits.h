@@ -1,5 +1,5 @@
-#ifndef __TYPE_TRAITS_H__
-#define __TYPE_TRAITS_H__
+#ifndef _KRVIN_TYPE_TRAITS_H__
+#define _KRVIN_TYPE_TRAITS_H__
 
 namespace KrvinSTL {
   namespace {
@@ -156,7 +156,7 @@ namespace KrvinSTL {
 		typedef _true_type		is_POD_type;
 	};
 
-  template<class T>
+	template<class T>
 	struct _type_traits<const T*>
 	{
 		typedef _true_type		has_trivial_default_constructor;

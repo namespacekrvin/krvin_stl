@@ -1,4 +1,5 @@
 #include "../src/alloc.h"
+
 #include <iostream>
 #include <cassert>
 #include <cstring>
@@ -146,3 +147,19 @@ int main() {
     std::cout << "All basic tests passed." << std::endl;
     return 0;
 }
+
+/*
+=== test_basic_alloc_dealloc ===
+PASS
+=== test_free_list_reuse ===
+PASS
+=== test_multiple_sizes ===
+PASS
+=== test_large_block ===
+PASS
+=== test_reallocate ===
+PASS
+=== test_boundary_sizes ===
+PASS
+All basic tests passed.
+*/
